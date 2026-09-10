@@ -1,0 +1,116 @@
+{
+    "nav": {
+        "home": "Home",
+        "product": "Product",
+        "contact": "Contact Us",
+        "service": "Our Service"
+    },
+    "footer": {
+        "brand": {
+            "name": "Ghanem",
+            "desc": "For Engineering & Plastics Industries"
+        },
+        "contact": {
+            "title": "Contact us",
+            "text": "Feel Free To Contact Us",
+            "phone1": "+2 (0) 1 0104 61618",
+            "phone2": "+2 (0) 1 0705 50163",
+            "email": "MohamedGhanem2020@outlook.com"
+        },
+        "location": {
+            "title": "Location",
+            "line1": "Plot No. 316",
+            "line2": "Ghanem Engineering & Plastics Industries",
+            "line3": "Sharqia",
+            "line4": "Egypt"
+        },
+        "links": {
+            "title": "Short Links",
+            "service": "Our Service",
+            "about": "About Us",
+            "contact": "Contact Us"
+        }
+    },
+    "hero": {
+        "title": "Your Trusted Industrial Partner",
+        "subtitle": "Delivering Excellence in Maintenance & Manufacturing"
+    },
+    "aboutUs": {
+        "title": "About Us",
+        "companyName": "Ghanem Engineering & Plastics Industries",
+        "description": "At Ghanem Engineering & Plastics Industries, we specialize in delivering high-quality manufacturing and industrial maintenance solutions tailored to meet the needs of modern industries. Our commitment to precision, reliability, and continuous improvement allows us to provide solutions that support our clients' operational and production requirements."
+    },
+    "services": {
+        "title": "Our Services",
+        "maintenance": {
+            "title": "Maintenance",
+            "description": "Preventive and corrective maintenance for industrial equipment, keeping production lines running with minimal downtime.",
+            "alt": "Maintenance services"
+        },
+        "manufacturing": {
+            "title": "Manufacturing",
+            "description": "High-quality manufacturing solutions designed to meet industrial requirements with precision and reliability.",
+            "alt": "Manufacturing services"
+        },
+        "learnMore": "Learn more"
+    },
+    "callSection": {
+        "title": "Need Industrial Support?",
+        "description": "Let’s talk about how we can help your business grow and succeed.",
+        "contactUs": "Contact Us"
+    },
+    "contactUs": {
+        "title": "Contact Us",
+        "description": "We are here to help. Get in touch with our team for inquiries, support, or business opportunities.",
+        "getInTouch": "Get in Touch",
+        "contactDescription": "Have a question or want to learn more about our products and services? Contact us and our team will be happy to assist you.",
+        "address": "Address",
+        "addressValue": "Ghanem Engineering & Plastics Industries, Egypt",
+        "phone": "Phone",
+        "phoneValue": "+20 XXX XXX XXXX",
+        "email": "Email",
+        "emailValue": "info@example.com",
+        "workingHours": "Working Hours",
+        "workingHoursValue": "Saturday - Thursday: 8:00 AM - 5:00 PM",
+        "sendMessage": "Send Us a Message",
+        "formDescription": "Fill out the form below and we will get back to you as soon as possible.",
+        "name": "Name",
+        "namePlaceholder": "Enter your name",
+        "emailPlaceholder": "Enter your email",
+        "phonePlaceholder": "Enter your phone number",
+        "subject": "Subject",
+        "subjectPlaceholder": "Enter the subject",
+        "message": "Message",
+        "messagePlaceholder": "Write your message here...",
+        "send": "Send Message",
+        "mapPlaceholder": "Google Maps location"
+    },
+    "product": {
+        "title": "Our Products",
+        "description": "Discover our range of high-quality industrial products and solutions.",
+        "product1": {
+            "title": "Industrial Product 1",
+            "description": "High-quality industrial product designed for reliable performance."
+        },
+        "product2": {
+            "title": "Industrial Product 2",
+            "description": "Reliable and efficient solution designed to meet industrial requirements."
+        },
+        "product3": {
+            "title": "Industrial Product 3",
+            "description": "Durable product manufactured with high-quality materials."
+        },
+        "product4": {
+            "title": "Industrial Product 4",
+            "description": "Professional industrial solution suitable for different applications."
+        },
+        "product5": {
+            "title": "Industrial Product 5",
+            "description": "High-performance product designed for demanding industrial environments."
+        },
+        "product6": {
+            "title": "Industrial Product 6",
+            "description": "Quality manufacturing solution focused on durability and performance."
+        }
+    }
+}
