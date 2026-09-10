@@ -20,7 +20,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
-import logo from "../assets/logo1.webp";
+import logo from "../assets/logo.png";
 
 export default function NavBar() {
   const { t, i18n } = useTranslation();
@@ -91,6 +91,7 @@ export default function NavBar() {
             },
             display: "flex",
             alignItems: "center",
+            py:2
           }}
         >
 
@@ -198,7 +199,7 @@ export default function NavBar() {
 
                       borderRadius: "10px",
 
-                      backgroundColor: "#B8A878",
+                      backgroundColor: "#A7907B",
                     },
                   }}
                 >
@@ -221,7 +222,7 @@ export default function NavBar() {
                   sm: 1.5,
                 },
 
-                color: "#333333",
+                color: "#A7907B",
 
                 fontFamily: '"Outfit", sans-serif',
 
@@ -233,8 +234,8 @@ export default function NavBar() {
                 borderRadius: 1.5,
 
                 "&:hover": {
-                  color: "#B8A878",
-                  backgroundColor: "#F2EAD0",
+                  color: "#a7907ba2",
+                  backgroundColor: "#a7907b82",
                 },
               }}
             >

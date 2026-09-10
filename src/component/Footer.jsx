@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Box, Grid, Stack, Typography } from "@mui/material";
 
-import logo from "../assets/logo1.webp";
+import logo from "../assets/logo.png";
 
 export default function Footer() {
   const { t, i18n } = useTranslation();

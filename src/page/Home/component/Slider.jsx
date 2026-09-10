@@ -1,10 +1,10 @@
-import { Box, Typography } from "@mui/material";
-import { useTranslation } from "react-i18next";
+import { Box } from "@mui/material";
+// import { useTranslation } from "react-i18next";
 
 import heroImage from "../../../assets/slider1.jpg";
 
 export default function Slider() {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
 
   return (
     <Box
@@ -38,12 +38,12 @@ export default function Slider() {
         sx={{
           position: "absolute",
           inset: 0,
-          backgroundColor: "rgba(0, 0, 0, 0.6)",
+          backgroundColor: "rgba(0, 0, 0, 0.23)",
         }}
       />
 
       {/* Content */}
-      <Box
+      {/* <Box
         sx={{
           position: "relative",
           zIndex: 1,
@@ -55,7 +55,6 @@ export default function Slider() {
           },
         }}
       >
-        {/* Main Title */}
         <Typography
           variant="h1"
           sx={{
@@ -71,7 +70,6 @@ export default function Slider() {
           {t("hero.title")}
         </Typography>
 
-        {/* Subtitle */}
         <Typography
           sx={{
             fontSize: "clamp(0.9rem, 2.5vw, 1.5rem)",
@@ -84,7 +82,7 @@ export default function Slider() {
         >
           {t("hero.subtitle")}
         </Typography>
-      </Box>
+      </Box> */}
     </Box>
   );
 }
