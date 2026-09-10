@@ -26,7 +26,7 @@ export default function ContactUs() {
         sx={{
           width: "100%",
           textAlign: "center",
-          pt:5
+          pt: 5,
         }}
       >
         <Typography
@@ -51,7 +51,6 @@ export default function ContactUs() {
         <Grid container spacing={4}>
           <Grid size={{ xs: 12, md: 5 }}>
             <Stack spacing={2.5}>
-              
               {/* <Typography
                 variant="h4"
                 sx={{
@@ -346,15 +345,15 @@ export default function ContactUs() {
                     variant="contained"
                     size="large"
                     sx={{
-                      alignSelf: "flex-start",
+                      alignSelf: "flex-end",
                       px: 5,
                       py: 1.5,
                       borderRadius: 2,
-                      backgroundColor: "#f84565",
+                      backgroundColor: "#B8A878",
                       fontWeight: 600,
                       textTransform: "none",
                       "&:hover": {
-                        backgroundColor: "#e63d5b",
+                        backgroundColor: "#b8a878d1",
                       },
                     }}
                   >
