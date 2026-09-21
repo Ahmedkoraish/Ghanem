@@ -83,7 +83,12 @@
         "message": "Message",
         "messagePlaceholder": "Write your message here...",
         "send": "Send Message",
-        "mapPlaceholder": "Google Maps location"
+        "mapPlaceholder": "Google Maps location",
+        "whatsapp": "WhatsApp",
+        "whatsappValue": "Chat with us on WhatsApp",
+        "invalidEmail": "Please enter a valid email address",
+        "invalidPhone": "Please enter a valid phone number",
+        "successMessage": "Gmail opened in a new tab — just press Send to deliver your message."
     },
     "product": {
         "title": "Our Products",

@@ -3,7 +3,7 @@ import { Fab } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 
-const WHATSAPP_NUMBER = "201010461618";
+export const WHATSAPP_NUMBER = "201010461618";
 
 export default function WhatsAppButton() {
   const { i18n } = useTranslation();
