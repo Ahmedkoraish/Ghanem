@@ -2,8 +2,10 @@ import { Box, Card, Stack, Typography } from "@mui/material";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { useTranslation } from "react-i18next";
 
-import serviceImg1 from "../../../assets/slider1.jpg";
-import serviceImg2 from "../../../assets/slider2.jpg";
+import { heroImage as serviceImg1} from "../../../utils/image.js";
+import { slider3Image as serviceImg2 } from "../../../utils/image.js";
+
+
 
 const services = [
   {
