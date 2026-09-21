@@ -15,7 +15,6 @@ import {
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
-import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import SendIcon from "@mui/icons-material/Send";
 import { useState } from "react";
@@ -150,23 +149,19 @@ export default function ContactUs() {
 
   const infoItems = [
     {
-      key: "address",
-      icon: <LocationOnIcon />,
-      label: t("contactUs.address"),
-      content: (
-        <>
-          {t("footer.location.line1")}, {t("footer.location.line2")}
-          <br />
-          {t("footer.location.line3")}, {t("footer.location.line4")}
-        </>
-      ),
-    },
-    {
       key: "phone",
       icon: <PhoneIcon />,
       label: t("contactUs.phone"),
       content: phones.map((phone) => (
-        <Link key={phone} href={toTel(phone)} sx={{ ...linkSx, direction: "ltr", textAlign: isArabic ? "right" : "left" }}>
+        <Link
+          key={phone}
+          href={toTel(phone)}
+          sx={{
+            ...linkSx,
+            direction: "ltr",
+            textAlign: isArabic ? "right" : "left",
+          }}
+        >
           {phone}
         </Link>
       )),
@@ -202,10 +197,16 @@ export default function ContactUs() {
       ),
     },
     {
-      key: "hours",
-      icon: <AccessTimeIcon />,
-      label: t("contactUs.workingHours"),
-      content: t("contactUs.workingHoursValue"),
+      key: "address",
+      icon: <LocationOnIcon />,
+      label: t("contactUs.address"),
+      content: (
+        <>
+          {t("footer.location.line1")}, {t("footer.location.line2")}
+          <br />
+          {t("footer.location.line3")}, {t("footer.location.line4")}
+        </>
+      ),
     },
   ];
 
