@@ -50,7 +50,7 @@ export default function Footer() {
             <Stack
               alignItems={{
                 xs: "center",
-                sm: isArabic ? "flex-end" : "flex-start",
+                sm: "flex-start",
               }}
             >
               <Box
@@ -77,7 +77,7 @@ export default function Footer() {
               spacing={0.7}
               alignItems={{
                 xs: "center",
-                sm: isArabic ? "flex-end" : "flex-start",
+                sm: "flex-start",
               }}
               textAlign={{
                 xs: "center",
@@ -103,11 +103,11 @@ export default function Footer() {
               </Typography>
 
               <Typography variant="body2">
-                {t("footer.contact.phone1")}
+                <bdi dir="ltr">{t("footer.contact.phone1")}</bdi>
               </Typography>
 
               <Typography variant="body2">
-                {t("footer.contact.phone2")}
+                <bdi dir="ltr">{t("footer.contact.phone2")}</bdi>
               </Typography>
 
               <Typography
@@ -116,7 +116,7 @@ export default function Footer() {
                   overflowWrap: "anywhere",
                 }}
               >
-                {t("footer.contact.email")}
+                <bdi dir="ltr">{t("footer.contact.email")}</bdi>
               </Typography>
             </Stack>
           </Grid>
@@ -127,7 +127,7 @@ export default function Footer() {
               spacing={0.7}
               alignItems={{
                 xs: "center",
-                sm: isArabic ? "flex-end" : "flex-start",
+                sm: "flex-start",
               }}
               textAlign={{
                 xs: "center",
@@ -172,7 +172,7 @@ export default function Footer() {
               spacing={0.7}
               alignItems={{
                 xs: "center",
-                sm: isArabic ? "flex-end" : "flex-start",
+                sm: "flex-start",
               }}
               textAlign={{
                 xs: "center",

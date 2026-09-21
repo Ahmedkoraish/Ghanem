@@ -83,7 +83,12 @@
         "message": "الرسالة",
         "messagePlaceholder": "اكتب رسالتك هنا...",
         "send": "إرسال الرسالة",
-        "mapPlaceholder": "موقعنا على خرائط Google"
+        "mapPlaceholder": "موقعنا على خرائط Google",
+        "whatsapp": "واتساب",
+        "whatsappValue": "تحدث معنا عبر واتساب",
+        "invalidEmail": "يرجى إدخال بريد إلكتروني صحيح",
+        "invalidPhone": "يرجى إدخال رقم هاتف صحيح",
+        "successMessage": "تم فتح Gmail في نافذة جديدة — اضغط إرسال لتوصيل رسالتك."
     },
     "product": {
         "title": "منتجاتنا",
