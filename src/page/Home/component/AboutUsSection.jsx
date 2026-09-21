@@ -1,10 +1,11 @@
 import { Box, Stack, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 
-import img1 from "../../../assets/slider3.jpg";
+import { aboutUsImage as img1 } from "../../../utils/image.js";
 
 export default function AboutUsSection() {
   const { t } = useTranslation();
+
 
   return (
     <Stack

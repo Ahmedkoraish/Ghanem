@@ -1,10 +1,11 @@
 import { Box } from "@mui/material";
 // import { useTranslation } from "react-i18next";
 
-import heroImage from "../../../assets/slider1.jpg";
+import { heroImage } from "../../../utils/image.js";
 
 export default function Slider() {
   // const { t } = useTranslation();
+
 
   return (
     <Box

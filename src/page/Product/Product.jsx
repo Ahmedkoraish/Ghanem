@@ -1,7 +1,9 @@
 import { Box, Card, CardContent, Container, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 
-import serviceImg1 from "../../assets/slider1.jpg";
+import { aboutUsImage as serviceImg1 } from "../../utils/image.js";
+
+
 
 export default function Product() {
   const { t } = useTranslation();
