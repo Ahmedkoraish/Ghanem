@@ -1,55 +1,83 @@
 import { Box, Card, CardContent, Container, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 
-import { aboutUsImage as serviceImg1 } from "../../utils/image.js";
+import { helicalGear  } from "../../utils/image.js";
+import { bevelGear  } from "../../utils/image.js";
+import { wormGearSet  } from "../../utils/image.js";
+import { gearBox  } from "../../utils/image.js";
+import { ConcealedValve  } from "../../utils/image.js";
+import { brassKnurled  } from "../../utils/image.js";
+import { brassThread  } from "../../utils/image.js";
+import { brassTHandle  } from "../../utils/image.js";
+import { stainlessSteelTactileDiscs  } from "../../utils/image.js";
 
 
 
 export default function Product() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isArabic = i18n.language === "ar";
 
   const products = [
     {
       id: 1,
-      image: serviceImg1,
-      title: t("product.product1.title"),
-      description: t("product.product1.description"),
+      image: helicalGear,
+      title: t("product.helicalGear.title"),
+      description: t("product.helicalGear.description"),
     },
     {
       id: 2,
-      image: serviceImg1,
-      title: t("product.product2.title"),
-      description: t("product.product2.description"),
+      image: bevelGear,
+      title: t("product.bevelGear.title"),
+      description: t("product.bevelGear.description"),
     },
     {
       id: 3,
-      image: serviceImg1,
-      title: t("product.product3.title"),
-      description: t("product.product3.description"),
+      image: wormGearSet,
+      title: t("product.wormGearSet.title"),
+      description: t("product.wormGearSet.description"),
     },
     {
       id: 4,
-      image: serviceImg1,
-      title: t("product.product4.title"),
-      description: t("product.product4.description"),
+      image: gearBox,
+      title: t("product.gearBox.title"),
+      description: t("product.gearBox.description"),
     },
     {
       id: 5,
-      image: serviceImg1,
-      title: t("product.product5.title"),
-      description: t("product.product5.description"),
+      image: ConcealedValve,
+      title: t("product.ConcealedValve.title"),
+      description: t("product.ConcealedValve.description"),
     },
     {
       id: 6,
-      image: serviceImg1,
-      title: t("product.product6.title"),
-      description: t("product.product6.description"),
+      image: brassKnurled,
+      title: t("product.brassKnurled.title"),
+      description: t("product.brassKnurled.description"),
+    },
+    {
+      id: 7,
+      image: brassThread,
+      title: t("product.brassThread.title"),
+      description: t("product.brassThread.description"),
+    },
+    {
+      id: 8,
+      image: brassTHandle,
+      title: t("product.brassTHandle.title"),
+      description: t("product.brassTHandle.description"),
+    },
+    {
+      id: 9,
+      image: stainlessSteelTactileDiscs,
+      title: t("product.stainlessSteelTactileDiscs.title"),
+      description: t("product.stainlessSteelTactileDiscs.description"),
     },
   ];
 
   return (
     <Box
       component="main"
+      dir={isArabic ? "rtl" : "ltr"}
       sx={{
         backgroundColor: "#F9FAFB",
         minHeight: "100vh",
@@ -65,7 +93,7 @@ export default function Product() {
         {/* Page Title */}
         <Box
           sx={{
-            textAlign: "center",
+            textAlign:"center",
             mb: { xs: 5, md: 7 },
           }}
         >
@@ -172,6 +200,7 @@ export default function Product() {
                     fontWeight: 600,
                     color: "#1F2937",
                     mb: 1,
+                    textAlign: isArabic ? "right" : "left",
                   }}
                 >
                   {product.title}
@@ -182,6 +211,7 @@ export default function Product() {
                   sx={{
                     color: "#6B7280",
                     lineHeight: 1.7,
+                    textAlign: isArabic ? "right" : "left",
                   }}
                 >
                   {product.description}

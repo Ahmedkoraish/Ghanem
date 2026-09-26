@@ -21,7 +21,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { WHATSAPP_NUMBER } from "../../component/WhatsAppButton";
 
-const CONTACT_EMAIL = "MohamedGhanem2020@outlook.com";
+const CONTACT_EMAIL = "m.abdelmaqsod@ghanem-eg.com";
 const MAP_QUERY = "Ghanem Engineering & Plastics Industries, Sharqia, Egypt";
 
 const BRAND = "#B8A878";
