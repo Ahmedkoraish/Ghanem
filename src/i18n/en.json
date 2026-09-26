@@ -15,7 +15,7 @@
             "text": "Feel Free To Contact Us",
             "phone1": "+2 (0) 1 0104 61618",
             "phone2": "+2 (0) 1 0705 50163",
-            "email": "MohamedGhanem2020@outlook.com"
+            "email": "m.abdelmaqsod@ghanem-eg.com"
         },
         "location": {
             "title": "Location",
@@ -93,29 +93,41 @@
     "product": {
         "title": "Our Products",
         "description": "Discover our range of high-quality industrial products and solutions.",
-        "product1": {
-            "title": "Industrial Product 1",
-            "description": "High-quality industrial product designed for reliable performance."
+        "helicalGear": {
+            "title": "Helical Gear",
+            "description": "A high-precision mechanical helical gear manufactured from wear-resistant steel. Its angled teeth provide gradual and smooth engagement, ensuring quiet operation, high load-carrying capacity, and efficient power transmission across a wide range of industrial and mechanical applications."
         },
-        "product2": {
-            "title": "Industrial Product 2",
-            "description": "Reliable and efficient solution designed to meet industrial requirements."
+        "bevelGear": {
+            "title": "Bevel Gear",
+            "description": "A high-quality bevel gear manufactured from stress- and wear-resistant steel, featuring an angled conical design for efficient power and torque transmission between intersecting shafts."
         },
-        "product3": {
-            "title": "Industrial Product 3",
-            "description": "Durable product manufactured with high-quality materials."
+        "wormGearSet": {
+            "title": "Worm Gear Set",
+            "description": "A high-precision worm gear drive set featuring a hardened worm screw and corrosion-resistant brass worm wheel. Designed for high speed reduction, increased torque, and compact operation, with self-locking capability for industrial lifting, conveying, and drive systems."
         },
-        "product4": {
-            "title": "Industrial Product 4",
-            "description": "Professional industrial solution suitable for different applications."
+        "gearBox": {
+            "title": "Gear Box",
+            "description": "High-precision mechanical gearbox gears designed to deliver reliable and efficient performance. Manufactured from high-strength steel alloys for enhanced durability, wear resistance, and load-bearing capacity. Available in various gear ratios for efficient power and torque transmission, making them suitable for automotive applications, industrial equipment, and heavy machinery."
         },
-        "product5": {
-            "title": "Industrial Product 5",
-            "description": "High-performance product designed for demanding industrial environments."
+        "ConcealedValve": {
+            "title": "Concealed Valve Cartridge",
+            "description": "A brass internal mechanical component designed to control the opening, closing, and water flow within concealed plumbing valves installed inside walls, ensuring reliable and smooth operation of the water system."
         },
-        "product6": {
-            "title": "Industrial Product 6",
-            "description": "Quality manufacturing solution focused on durability and performance."
+        "brassKnurled": {
+            "title": "Brass Knurled Nut",
+            "description": "High-quality brass knurled nut designed for easy and flexible hand tightening and adjustment without the need for tools."
+        },
+        "brassThread": {
+            "title": "Brass Threaded Sleeve",
+            "description": "High-precision brass threaded sleeve manufactured using CNC machining to ensure dimensional accuracy and durability. Features an extended external thread for secure connections and a knurled end for easy installation and removal with tools, making it suitable for fluid systems, industrial sprinklers, and high-pressure equipment."
+        },
+        "brassTHandle": {
+            "title": "Brass T-Handle Valve Stem",
+            "description": "High-quality brass valve stem manufactured using CNC machining for precise dimensions and reliable sealing. Features a T-handle for smooth manual opening and closing, a precision-machined thread, and a high-resistance rubber gasket to prevent fluid leakage under pressure. Suitable for industrial piping systems, water valves, and engineering equipment."
+        },
+        "stainlessSteelTactileDiscs": {
+            "title": "Stainless Steel Tactile Discs",
+            "description": "High-precision stainless steel control discs and caps manufactured using CNC turning and milling for durability and corrosion resistance. Featuring a diamond-knurled surface pattern for enhanced grip and slip resistance, making them suitable for control panels, machinery, precision adjustment knobs, and engineering applications."
         }
     }
 }
